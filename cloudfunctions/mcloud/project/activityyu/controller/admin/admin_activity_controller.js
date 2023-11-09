@@ -146,8 +146,22 @@ class AdminActivityController extends BaseProjectAdminController {
 		await contentCheck.checkTextMultiAdmin(input);
 
 		let service = new AdminActivityService();
-		let result = await service.insertActivity(input);
 
+		let result = await service.insertActivity(input);
+		// wx.cloud.database().collection('bx_activity').add({
+		// 	input,
+		// 	success(res){
+		// 	  /* console.log(res) */
+		// 	  wx.navigateBack({
+		// 		success(){
+		// 		  wx.showToast({
+		// 			title: '发表成功！',
+		// 		  })
+		// 		}
+		// 	  })
+			  
+		// 	}
+		//   })
 		this.logOther('添加了活动《' + input.title + '》');
 
 		return result;

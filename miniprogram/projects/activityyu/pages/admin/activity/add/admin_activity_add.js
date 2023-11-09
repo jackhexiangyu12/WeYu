@@ -80,8 +80,55 @@ Page({
 		try {
 
 			// 创建
-			let result = await cloudHelper.callCloudSumbit('admin/activity_insert', data);
-			let activityId = result.data.id;
+			// let result = await cloudHelper.callCloudSumbit('admin/activity_insert', data);
+			wx.cloud.database().collection('bx_activity').add({ 
+                data1:{"id":data.id, 
+                "ACTIVITY_TITLE":data.title, 
+                "ACTIVITY_CATE_ID":data.cateId, 
+                "ACTIVITY_CATE_NAME":data.cateName, 
+                "ACTIVITY_ADDRESS":data.ACTIVITY_ADDRESS, 
+                "ACTIVITY_START":1699449812217, 
+                "ACTIVITY_END":1702041812217, 
+                "ACTIVITY_STOP":1702041812217, 
+                "ACTIVITY_JOIN_FORMS":[{"type":"text","title":"姓名","must":true},{"type":"mobile","title":"手机","must":true}], 
+                "ACTIVITY_OBJ":{"cover":["/images/cover.gif"], 
+                "img":["/images/cover.gif"], 
+                "time":3,"fee":"100","desc":[{"type":"text","val":"活动1详情介绍"}]}, 
+                "_pid":"activityyu", 
+                "ACTIVITY_ID":"20231108212334011", 
+                "ACTIVITY_ADD_TIME":1699449814011, 
+                "ACTIVITY_EDIT_TIME":1699496878640, 
+                "ACTIVITY_ADD_IP":"112.48.20.75", 
+                "ACTIVITY_EDIT_IP":"", 
+                "ACTIVITY_STATUS":1, 
+                "ACTIVITY_CANCEL_SET":1, 
+                "ACTIVITY_CHECK_SET":0, 
+                "ACTIVITY_IS_MENU":1, 
+                "ACTIVITY_MAX_CNT":20, 
+                "ACTIVITY_ORDER":9999, 
+                "ACTIVITY_VOUCH":0, 
+                "ACTIVITY_FORMS":[], 
+                "ACTIVITY_ADDRESS_GEO":{}, 
+                "ACTIVITY_QR":"", 
+                "ACTIVITY_VIEW_CNT":21, 
+                "ACTIVITY_JOIN_CNT":1, 
+                "ACTIVITY_COMMENT_CNT":0, 
+                "ACTIVITY_USER_LIST":[{"USER_MINI_OPENID":"activityyu^^^oFe-55Cw8n0glHdZc2nRMwN0DQ8U", 
+                "USER_NAME":"hxy", 
+                "USER_PIC":"cloud://competition-7gp85b07182c11ba.636f-competition-7gp85b07182c11ba-1305199338/activityyu/user/20231108/2676101.jpg"}]}, 
+                success(res){ 
+                  /* console.log(res) */ 
+                  wx.navigateBack({ 
+                    success(){ 
+                      wx.showToast({ 
+                        title: '发表成功！', 
+                      }) 
+                    } 
+                  }) 
+                   
+                } 
+              }) 
+			let activityId = data.id;
 
 			// 图片
 			await cloudHelper.transFormsTempPics(forms, 'activity/', activityId, 'admin/activity_update_forms');
