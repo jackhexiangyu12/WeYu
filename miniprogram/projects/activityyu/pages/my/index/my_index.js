@@ -100,7 +100,7 @@ Page({
 	},
 
 	bindSetTap: function (e, skin) {
-		let itemList = ['清除缓存', '后台管理'];
+		let itemList = ['清除缓存', '后台管理','裁判管理','领队管理'];
 		wx.showActionSheet({
 			itemList,
 			success: async res => {
@@ -111,6 +111,39 @@ Page({
 				}
 
 				if (idx == 1) {
+					if (setting.IS_SUB) {
+						AdminBiz.adminLogin(this, 'admin', '123456');
+					} else {
+						wx.reLaunch({
+							url: '../../admin/index/login/admin_login',
+						});
+					}
+
+				}
+
+				if (idx == 2) {
+					if (setting.IS_SUB) {
+						AdminBiz.adminLogin(this, 'admin', '123456');
+					} else {
+						wx.reLaunch({
+							url: '../../admin/index/login_referee/admin_login',
+						});
+					}
+
+				}
+
+				if (idx == 3) {
+					if (setting.IS_SUB) {
+						AdminBiz.adminLogin(this, 'admin', '123456');
+					} else {
+						wx.reLaunch({
+							url: '../../admin/index/login_leader/admin_login',
+						});
+					}
+
+				}
+
+				if (idx == 4) {
 					if (setting.IS_SUB) {
 						AdminBiz.adminLogin(this, 'admin', '123456');
 					} else {

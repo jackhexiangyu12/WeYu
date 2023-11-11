@@ -21,6 +21,62 @@
 					"query": "",
 					"launchMode": "default",
 					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/my/index/my_index",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/default/index/default_index",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/admin/index/home_leader/admin_home",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/admin/activity/list/admin_activity_list",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/admin/activity/list/admin_activity_list",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/admin/activity/edit/admin_activity_edit",
+					"query": "id=aeff410b654b8bd601cf72491afe5a4d",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/admin/activity/score/admin_activity_edit",
+					"query": "id=aeff410b654b8bd601cf72491afe5a4d",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/admin/activity/activity_form_tpl",
+					"query": "id=aeff410b654b8bd601cf72491afe5a4d",
+					"launchMode": "default",
+					"scene": null
 				}
 			]
 		}

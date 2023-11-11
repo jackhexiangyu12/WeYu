@@ -86,6 +86,8 @@
 					<view class="oprt">
 						<view bindtap="url" data-url="../edit/admin_activity_edit?id={{item._id}}" class="btn round margin-right-s"><text class="icon-edit margin-right-xxs"></text>编辑</view>
 
+						<view bindtap="url" data-url="../score/admin_activity_edit?id={{item._id}}" class="btn round margin-right-s"><text class="icon-edit margin-right-xxs"></text>开始记分</view>
+
 						<view bindtap="bindJoinMoreTap" data-id="{{item._id}}" data-title="{{item.ACTIVITY_TITLE}}" class="btn margin-right-s">名单与核销</view>
 
 						<view bindtap="bindStatusMoreTap" data-id="{{item._id}}" class="btn margin-right-s">状态管理</view>

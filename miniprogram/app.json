@@ -62,7 +62,12 @@
         "projects/activityyu/pages/admin/product/edit/admin_product_edit",
         "cmpts/public/form/form_set/field/form_set_field",
         "cmpts/public/form/form_show/content/form_show_content",
-        "pages/test1/test1"
+		"pages/test1/test1",
+		"projects/activityyu/pages/admin/index/login_leader/admin_login",
+		"projects/activityyu/pages/admin/index/login_referee/admin_login",
+		"projects/activityyu/pages/admin/index/home_referee/admin_home",
+		"projects/activityyu/pages/admin/index/home_leader/admin_home",
+		"projects/activityyu/pages/admin/activity/score/admin_activity_edit"
     ],
     "window": {
         "backgroundColor": "#f1f1f1",
