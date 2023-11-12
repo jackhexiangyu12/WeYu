@@ -67,14 +67,21 @@
 				{
 					"name": "",
 					"pathName": "projects/activityyu/pages/admin/activity/score/admin_activity_edit",
+					"query": "id=aeff410b654b8bd601cf72491afe5a4d&activityId=aeff410b654b8bd601cf72491afe5a4d&title=%25E6%25B4%25BB%25E5%258A%25A81",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "projects/activityyu/pages/admin/activity/join_list/admin_activity_join_list",
 					"query": "id=aeff410b654b8bd601cf72491afe5a4d",
 					"launchMode": "default",
 					"scene": null
 				},
 				{
 					"name": "",
-					"pathName": "projects/activityyu/pages/admin/activity/activity_form_tpl",
-					"query": "id=aeff410b654b8bd601cf72491afe5a4d",
+					"pathName": "projects/activityyu/pages/admin/activity/join_list/admin_activity_join_list",
+					"query": "id=aeff410b654b8bd601cf72491afe5a4d&activityId=aeff410b654b8bd601cf72491afe5a4d&title=%25E6%25B4%25BB%25E5%258A%25A81",
 					"launchMode": "default",
 					"scene": null
 				}

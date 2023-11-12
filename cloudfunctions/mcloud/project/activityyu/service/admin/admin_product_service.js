@@ -1,6 +1,6 @@
 /**
  * Notes: 产品后台管理
- * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY cclinux0730 (wechat)
+ * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY he_xiang_yu (wechat)
  * Date: 2022-06-08 07:48:00 
  */
 
@@ -16,7 +16,7 @@ class AdminProductService extends BaseProjectAdminService {
 
 	/** 推荐首页SETUP */
 	async vouchProductSetup(id, vouch) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/**添加 */
@@ -29,12 +29,12 @@ class AdminProductService extends BaseProjectAdminService {
 	}) {
 
 
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/**删除数据 */
 	async delProduct(id) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 
 	}
 
@@ -56,7 +56,7 @@ class AdminProductService extends BaseProjectAdminService {
 		id,
 		hasImageForms
 	}) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 
@@ -70,7 +70,7 @@ class AdminProductService extends BaseProjectAdminService {
 		forms,
 	}) {
 
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/**取得分页列表 */
@@ -133,18 +133,18 @@ class AdminProductService extends BaseProjectAdminService {
 
 	/**修改状态 */
 	async statusProduct(id, status) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/**置顶与排序设定 */
 	async sortProduct(id, sort) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 
 	}
 
 	/**首页设定 */
 	async vouchProduct(id, vouch) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 }
 

@@ -52,6 +52,8 @@
 						<view class="mao">：</view>
 						<view wx:if="{{form.type=='mobile'}}" class="content" bindtap="url" data-type="phone" data-url="{{form.val}}">{{form.val}}<text class=" margin-left-xs icon-phone text-black text-normal"></text></view>
 						<view wx:else class="content" bindtap="url" data-type="copy" data-url="{{form.title+'：'+form.val}}">{{form.val}}</view>
+
+						
 					</view>
 					<view bindtap="bindUnFoldTap" data-idx="{{index}}" wx:if="{{item.fold && item.ACTIVITY_JOIN_FORMS.length>3}}" class="fold"><text class="icon-unfold margin-right-xs"></text>更多资料...</view>
 

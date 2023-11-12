@@ -1,6 +1,6 @@
 /**
  * Notes: 管理员管理
- * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY cclinux0730 (wechat)
+ * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY he_xiang_yu (wechat)
  * Date: 2021-07-11 07:48:00 
  */
 
@@ -155,7 +155,7 @@ class AdminMgrService extends BaseProjectAdminService {
 
 	/** 删除管理员 */
 	async delMgr(id, myAdminId) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/** 添加新的管理员 */
@@ -165,13 +165,13 @@ class AdminMgrService extends BaseProjectAdminService {
 		phone,
 		password
 	}) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 
 	}
 
 	/** 修改状态 */
 	async statusMgr(id, status, myAdminId) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	} 
  
 
@@ -196,13 +196,13 @@ class AdminMgrService extends BaseProjectAdminService {
 		password
 	}) {
 
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/** 修改自身密码 */
 	async pwdtMgr(adminId, oldPassword, password) {
 
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 }
 

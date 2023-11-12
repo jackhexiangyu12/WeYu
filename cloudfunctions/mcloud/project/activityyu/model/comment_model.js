@@ -1,6 +1,6 @@
 /**
  * Notes: 评论实体
- * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY cclinux0730 (wechat)
+ * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY he_xiang_yu (wechat)
  * Date: 2023-05-24 19:20:00 
  */
 

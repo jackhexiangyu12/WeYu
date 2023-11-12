@@ -1,6 +1,6 @@
 /**
  * Notes: 打卡模块业务逻辑
- * Ver : CCMiniCloud Framework 3.2.11 ALL RIGHTS RESERVED BY cclinux0730 (wechat)
+ * Ver : CCMiniCloud Framework 3.2.11 ALL RIGHTS RESERVED BY he_xiang_yu (wechat)
  * Date: 2023-04-26 07:48:00 
  */
 

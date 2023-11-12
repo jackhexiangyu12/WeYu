@@ -1,6 +1,6 @@
 /**
  * Notes: 活动后台管理
- * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY cclinux0730 (wechat)
+ * Ver : CCMiniCloud Framework 2.0.1 ALL RIGHTS RESERVED BY he_xiang_yu (wechat)
  * Date: 2022-06-23 07:48:00 
  */
 
@@ -147,20 +147,20 @@ class AdminActivityService extends BaseProjectAdminService {
 			  
 			}
 		  })
-		// this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		// this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	//#############################   
 	/** 清空 */
 	async clearActivityAll(activityId) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 
 	}
 
 
 	/**删除数据 */
 	async delActivity(id) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 
 	}
 	
@@ -169,7 +169,7 @@ class AdminActivityService extends BaseProjectAdminService {
 		id,
 		hasImageForms
 	}) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
  
 	}
 
@@ -197,12 +197,12 @@ class AdminActivityService extends BaseProjectAdminService {
 		joinForms
 	}) { 
 
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/**修改状态 */
 	async statusActivity(id, status) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	//#############################
@@ -257,35 +257,35 @@ class AdminActivityService extends BaseProjectAdminService {
 	/**修改报名状态  
 	 */
 	async statusActivityJoin(activityJoinId, status, reason = '') {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 
 	}
 
 
 	/** 取消某项目的所有报名记录 */
 	async cancelActivityJoinAll(activityId, reason) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/** 删除报名 */
 	async delActivityJoin(activityJoinId) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 
 	}
 
 	/** 自助签到码 */
 	async genActivitySelfCheckinQr(page, activityId) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/** 管理员按钮核销 */
 	async checkinActivityJoin(activityJoinId, flag) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	/** 管理员扫码核销 */
 	async scanActivityJoin(activityId, code) {
-		this.AppError('[羽毛球]该功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该功能暂未完成，如有需要请加作者微信：he_xiang_yu');
 	}
 
 	// #####################导出报名数据
@@ -304,7 +304,7 @@ class AdminActivityService extends BaseProjectAdminService {
 		activityId,
 		status
 	}) {
-		this.AppError('[羽毛球]该导出报名数据功能暂不开放，如有需要请加作者微信：cclinux0730');
+		this.AppError('[羽毛球]该导出报名数据功能暂不开放，如有需要请加作者微信：he_xiang_yu');
 
 	}
 }
