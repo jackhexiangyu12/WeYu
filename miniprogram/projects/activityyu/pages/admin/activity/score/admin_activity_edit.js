@@ -33,7 +33,9 @@ Page({
 		cancelModalShow: false,
 		cancelAllModalShow: false,
 		formReason: '',
-		curIdx: -1
+		curIdx: -1,
+		team1_score:0,
+		team2_score:0
 	},
 
 	/**

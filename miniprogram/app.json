@@ -120,7 +120,7 @@
         }
 	},
 	"requiredPrivateInfos": [
-		"chooseLocation"
+
 	],
     "usingComponents": {
         "cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
